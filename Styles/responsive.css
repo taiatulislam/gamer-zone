@@ -5,7 +5,8 @@
     }
 
     .nav-links ul,
-    .online-games-container {
+    .online-games-container,
+    .instantly-play {
         flex-direction: column;
         padding: 0;
     }
@@ -49,12 +50,34 @@
         font-size: 1rem;
     }
 
-    .online-games-title {
+    .online-games-title,
+    .instantly-play-title {
         font-size: 2rem;
     }
 
     .online-games {
         padding: 30px;
+        margin: 0;
+    }
+
+    .instantly-play {
+        gap: 50px;
+    }
+
+    .instantly-play-description {
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .instantly-play-img {
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    .angela {
+        top: -100px;
+        left: -50px;
     }
 }
 
@@ -78,7 +101,8 @@
         background-size: cover;
     }
 
-    .banner-title {
+    .banner-title,
+    .instantly-play-title {
         font-size: 2.4rem;
     }
 
@@ -87,7 +111,8 @@
     }
 
     .banner-list,
-    .games-card p {
+    .games-card p,
+    .instantly-play-para {
         font-size: 1rem;
     }
 
@@ -96,4 +121,17 @@
         min-height: 150px;
     }
 
+    .instantly-play-description {
+        padding: 0;
+    }
+
+    .instantly-play {
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .angela {
+        top: -100px;
+        left: 70px;
+    }
 }

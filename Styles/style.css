@@ -183,3 +183,45 @@ body {
     font-size: 1.125rem;
     color: #534C64;
 }
+
+/* Instantly play */
+.instantly-play {
+    display: flex;
+    gap: 130px;
+    justify-content: space-between;
+    padding: 0px 240px;
+}
+
+.instantly-play-description {
+    padding-top: 100px;
+    max-width: 350px;
+    text-align: right;
+}
+
+.instantly {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instantly-play-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.instantly-play-para {
+    font-size: 1.125rem;
+    color: #534C64;
+}
+
+.red-dead {
+    width: 80%;
+}
+
+.angela {
+    width: 40%;
+    position: relative;
+    bottom: 180px;
+    right: 100px;
+}
