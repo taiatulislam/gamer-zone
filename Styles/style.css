@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
+
+/* Navbar Section */
 .nav-container {
     max-width: 1920px;
     display: flex;
@@ -65,4 +70,71 @@ body {
     padding: 18px 24px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+}
+
+/* Banner section */
+.banner {
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-description {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 125px 0px 125px 200px;
+    width: 40%;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.banner-goat {
+    font-size: 5.9rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.banner-list {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.primary-btn {
+    color: #FFF;
+    font-size: 1.25;
+    font-weight: 600;
+    padding: 21px 40px;
+    border: none;
+    border-radius: 48px;
+}
+
+.color-pink {
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.color-sky {
+    background-color: #4EC5F7;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 90%;
 }

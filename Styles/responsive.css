@@ -16,6 +16,36 @@
     .nav-logo {
         margin: 0 auto;
     }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-description {
+        padding: 20px;
+        width: auto;
+        margin: 10px;
+        background-size: cover;
+    }
+
+    .banner-title {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .banner-goat {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .banner-img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-list {
+        font-size: 1rem;
+    }
 }
 
 
@@ -25,13 +55,29 @@
         padding: 0 20px;
     }
 
-    .nav-links ul {
-        /* flex-direction: column; */
-        /* padding: 0; */
+    .anchor {
+        margin-right: 10px;
     }
 
     .follow {
         padding: 15px 10px;
+    }
+
+    .banner-description {
+        padding: 80px 40px 60px 80px;
+        background-size: cover;
+    }
+
+    .banner-title {
+        font-size: 2.4rem;
+    }
+
+    .banner-goat {
+        font-size: 4rem;
+    }
+
+    .banner-list {
+        font-size: 1rem;
     }
 
 }
