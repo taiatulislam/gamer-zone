@@ -131,54 +131,79 @@
 
 /* tablet */
 @media screen and (min-width:426px) and (max-width:769px) {
-    .nav-container {
-        padding: 0 20px;
-    }
 
-    .anchor {
-        margin-right: 10px;
-    }
-
-    .follow {
-        padding: 15px 10px;
+    .nav-container,
+    .instantly-play {
+        flex-direction: column;
     }
 
     .banner-description {
-        padding: 80px 40px 60px 80px;
+        width: 100%;
+        padding: 50px 0 0 60px;
         background-size: cover;
+        background-position: right center;
     }
 
-    .banner-title,
-    .instantly-play-title {
-        font-size: 2.4rem;
+    .banner-img img {
+        width: 90%;
+    }
+
+    .banner-title {
+        font-size: 2.2rem;
     }
 
     .banner-goat {
-        font-size: 4rem;
+        font-size: 4.3rem;
     }
 
-    .banner-list,
-    .games-card p,
-    .instantly-play-para {
+    .banner-list {
         font-size: 1rem;
     }
 
-    .games-card img {
-        min-width: 130px;
-        min-height: 150px;
+    .online-games-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
+    .instantly-play {
+        padding: 0;
+        gap: 70px;
+    }
+
+    .instantly-play-description {
+        max-width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .angela {
+        top: -160px;
+    }
+
+    .games-category,
     .instantly-play-description {
         padding: 0;
     }
 
-    .instantly-play {
-        padding: 40px;
-        gap: 40px;
+    .category {
+        margin-right: 20px;
+        padding: 5px 15px 5px 5px;
     }
 
-    .angela {
-        top: -100px;
-        left: 70px;
+    .category-container {
+        width: 100%;
+    }
+
+    .category img {
+        width: 50%;
+        margin-right: 5px;
+    }
+
+    .category h4 {
+        font-size: 0.8rem;
+    }
+
+    .footer-container {
+        width: 80%;
     }
 }
