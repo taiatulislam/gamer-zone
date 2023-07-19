@@ -24,6 +24,7 @@ nav {
 .nav-logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-img {
@@ -122,6 +123,7 @@ nav {
     border: none;
     border-radius: 48px;
     margin: 30px 24px 24px 0;
+    cursor: pointer;
 }
 
 .color-pink {
@@ -301,6 +303,7 @@ nav {
     background: #ffffff;
     margin-bottom: 27px;
     margin-right: 35px;
+    cursor: pointer;
 }
 
 .category img {
@@ -349,6 +352,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 .social {
@@ -369,6 +373,7 @@ nav {
     align-items: center;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
+    cursor: pointer;
 }
 
 .footer-para {
